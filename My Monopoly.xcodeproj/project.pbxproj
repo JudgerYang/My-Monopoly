@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BAB25FC1D30E0350046DA28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB25FB1D30E0350046DA28 /* main.m */; };
+		8BAB25FF1D30E0350046DA28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB25FE1D30E0350046DA28 /* AppDelegate.m */; };
+		8BAB26021D30E0350046DA28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB26011D30E0350046DA28 /* ViewController.m */; };
+		8BAB26051D30E0350046DA28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAB26031D30E0350046DA28 /* Main.storyboard */; };
+		8BAB26071D30E0350046DA28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BAB26061D30E0350046DA28 /* Assets.xcassets */; };
+		8BAB260A1D30E0350046DA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAB26081D30E0350046DA28 /* LaunchScreen.storyboard */; };
+		8BAB26151D30E0350046DA28 /* My_MonopolyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB26141D30E0350046DA28 /* My_MonopolyTests.m */; };
+		8BAB26201D30E0350046DA28 /* My_MonopolyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAB261F1D30E0350046DA28 /* My_MonopolyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BAB26111D30E0350046DA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BAB25EF1D30E0350046DA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAB25F61D30E0350046DA28;
+			remoteInfo = "My Monopoly";
+		};
+		8BAB261C1D30E0350046DA28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BAB25EF1D30E0350046DA28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BAB25F61D30E0350046DA28;
+			remoteInfo = "My Monopoly";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BAB25F71D30E0350046DA28 /* My Monopoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Monopoly.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAB25FB1D30E0350046DA28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BAB25FD1D30E0350046DA28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BAB25FE1D30E0350046DA28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BAB26001D30E0350046DA28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BAB26011D30E0350046DA28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BAB26041D30E0350046DA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BAB26061D30E0350046DA28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BAB26091D30E0350046DA28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BAB260B1D30E0350046DA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAB26101D30E0350046DA28 /* My MonopolyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My MonopolyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAB26141D30E0350046DA28 /* My_MonopolyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_MonopolyTests.m; sourceTree = "<group>"; };
+		8BAB26161D30E0350046DA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BAB261B1D30E0350046DA28 /* My MonopolyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My MonopolyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAB261F1D30E0350046DA28 /* My_MonopolyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_MonopolyUITests.m; sourceTree = "<group>"; };
+		8BAB26211D30E0350046DA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BAB25F41D30E0350046DA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAB260D1D30E0350046DA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAB26181D30E0350046DA28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAB25EE1D30E0350046DA28 = {
+			isa = PBXGroup;
+			children = (
+				8BAB25F91D30E0350046DA28 /* My Monopoly */,
+				8BAB26131D30E0350046DA28 /* My MonopolyTests */,
+				8BAB261E1D30E0350046DA28 /* My MonopolyUITests */,
+				8BAB25F81D30E0350046DA28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BAB25F81D30E0350046DA28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BAB25F71D30E0350046DA28 /* My Monopoly.app */,
+				8BAB26101D30E0350046DA28 /* My MonopolyTests.xctest */,
+				8BAB261B1D30E0350046DA28 /* My MonopolyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BAB25F91D30E0350046DA28 /* My Monopoly */ = {
+			isa = PBXGroup;
+			children = (
+				8BAB25FD1D30E0350046DA28 /* AppDelegate.h */,
+				8BAB25FE1D30E0350046DA28 /* AppDelegate.m */,
+				8BAB26001D30E0350046DA28 /* ViewController.h */,
+				8BAB26011D30E0350046DA28 /* ViewController.m */,
+				8BAB26031D30E0350046DA28 /* Main.storyboard */,
+				8BAB26061D30E0350046DA28 /* Assets.xcassets */,
+				8BAB26081D30E0350046DA28 /* LaunchScreen.storyboard */,
+				8BAB260B1D30E0350046DA28 /* Info.plist */,
+				8BAB25FA1D30E0350046DA28 /* Supporting Files */,
+			);
+			path = "My Monopoly";
+			sourceTree = "<group>";
+		};
+		8BAB25FA1D30E0350046DA28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BAB25FB1D30E0350046DA28 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BAB26131D30E0350046DA28 /* My MonopolyTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BAB26141D30E0350046DA28 /* My_MonopolyTests.m */,
+				8BAB26161D30E0350046DA28 /* Info.plist */,
+			);
+			path = "My MonopolyTests";
+			sourceTree = "<group>";
+		};
+		8BAB261E1D30E0350046DA28 /* My MonopolyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BAB261F1D30E0350046DA28 /* My_MonopolyUITests.m */,
+				8BAB26211D30E0350046DA28 /* Info.plist */,
+			);
+			path = "My MonopolyUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BAB25F61D30E0350046DA28 /* My Monopoly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAB26241D30E0350046DA28 /* Build configuration list for PBXNativeTarget "My Monopoly" */;
+			buildPhases = (
+				8BAB25F31D30E0350046DA28 /* Sources */,
+				8BAB25F41D30E0350046DA28 /* Frameworks */,
+				8BAB25F51D30E0350046DA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My Monopoly";
+			productName = "My Monopoly";
+			productReference = 8BAB25F71D30E0350046DA28 /* My Monopoly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BAB260F1D30E0350046DA28 /* My MonopolyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAB26271D30E0350046DA28 /* Build configuration list for PBXNativeTarget "My MonopolyTests" */;
+			buildPhases = (
+				8BAB260C1D30E0350046DA28 /* Sources */,
+				8BAB260D1D30E0350046DA28 /* Frameworks */,
+				8BAB260E1D30E0350046DA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BAB26121D30E0350046DA28 /* PBXTargetDependency */,
+			);
+			name = "My MonopolyTests";
+			productName = "My MonopolyTests";
+			productReference = 8BAB26101D30E0350046DA28 /* My MonopolyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BAB261A1D30E0350046DA28 /* My MonopolyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BAB262A1D30E0350046DA28 /* Build configuration list for PBXNativeTarget "My MonopolyUITests" */;
+			buildPhases = (
+				8BAB26171D30E0350046DA28 /* Sources */,
+				8BAB26181D30E0350046DA28 /* Frameworks */,
+				8BAB26191D30E0350046DA28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BAB261D1D30E0350046DA28 /* PBXTargetDependency */,
+			);
+			name = "My MonopolyUITests";
+			productName = "My MonopolyUITests";
+			productReference = 8BAB261B1D30E0350046DA28 /* My MonopolyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BAB25EF1D30E0350046DA28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JudgerYang;
+				TargetAttributes = {
+					8BAB25F61D30E0350046DA28 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8BAB260F1D30E0350046DA28 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8BAB25F61D30E0350046DA28;
+					};
+					8BAB261A1D30E0350046DA28 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8BAB25F61D30E0350046DA28;
+					};
+				};
+			};
+			buildConfigurationList = 8BAB25F21D30E0350046DA28 /* Build configuration list for PBXProject "My Monopoly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BAB25EE1D30E0350046DA28;
+			productRefGroup = 8BAB25F81D30E0350046DA28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BAB25F61D30E0350046DA28 /* My Monopoly */,
+				8BAB260F1D30E0350046DA28 /* My MonopolyTests */,
+				8BAB261A1D30E0350046DA28 /* My MonopolyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BAB25F51D30E0350046DA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAB260A1D30E0350046DA28 /* LaunchScreen.storyboard in Resources */,
+				8BAB26071D30E0350046DA28 /* Assets.xcassets in Resources */,
+				8BAB26051D30E0350046DA28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAB260E1D30E0350046DA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAB26191D30E0350046DA28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BAB25F31D30E0350046DA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAB26021D30E0350046DA28 /* ViewController.m in Sources */,
+				8BAB25FF1D30E0350046DA28 /* AppDelegate.m in Sources */,
+				8BAB25FC1D30E0350046DA28 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAB260C1D30E0350046DA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAB26151D30E0350046DA28 /* My_MonopolyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BAB26171D30E0350046DA28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAB26201D30E0350046DA28 /* My_MonopolyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BAB26121D30E0350046DA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAB25F61D30E0350046DA28 /* My Monopoly */;
+			targetProxy = 8BAB26111D30E0350046DA28 /* PBXContainerItemProxy */;
+		};
+		8BAB261D1D30E0350046DA28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BAB25F61D30E0350046DA28 /* My Monopoly */;
+			targetProxy = 8BAB261C1D30E0350046DA28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BAB26031D30E0350046DA28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAB26041D30E0350046DA28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BAB26081D30E0350046DA28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BAB26091D30E0350046DA28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BAB26221D30E0350046DA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BAB26231D30E0350046DA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BAB26251D30E0350046DA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Monopoly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.judgeryang.My-Monopoly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BAB26261D30E0350046DA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "My Monopoly/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.judgeryang.My-Monopoly";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BAB26281D30E0350046DA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My MonopolyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.judgeryang.My-MonopolyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Monopoly.app/My Monopoly";
+			};
+			name = Debug;
+		};
+		8BAB26291D30E0350046DA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "My MonopolyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.judgeryang.My-MonopolyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/My Monopoly.app/My Monopoly";
+			};
+			name = Release;
+		};
+		8BAB262B1D30E0350046DA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My MonopolyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.judgeryang.My-MonopolyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Monopoly";
+			};
+			name = Debug;
+		};
+		8BAB262C1D30E0350046DA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "My MonopolyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.judgeryang.My-MonopolyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "My Monopoly";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BAB25F21D30E0350046DA28 /* Build configuration list for PBXProject "My Monopoly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAB26221D30E0350046DA28 /* Debug */,
+				8BAB26231D30E0350046DA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BAB26241D30E0350046DA28 /* Build configuration list for PBXNativeTarget "My Monopoly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAB26251D30E0350046DA28 /* Debug */,
+				8BAB26261D30E0350046DA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BAB26271D30E0350046DA28 /* Build configuration list for PBXNativeTarget "My MonopolyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAB26281D30E0350046DA28 /* Debug */,
+				8BAB26291D30E0350046DA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BAB262A1D30E0350046DA28 /* Build configuration list for PBXNativeTarget "My MonopolyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAB262B1D30E0350046DA28 /* Debug */,
+				8BAB262C1D30E0350046DA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BAB25EF1D30E0350046DA28 /* Project object */;
+}
